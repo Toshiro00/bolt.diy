@@ -1,4 +1,4 @@
-name = "bolt-diy-worker" # Choose a unique name for your worker
-main = "./build/server/index.js" # This is where Remix's server bundle is
-compatibility_date = "2024-09-23" # Or a more recent date like "2025-05-27"
-compatibility_flags = ["nodejs_compat"] # Crucial for Node.js built-ins
+name = "bolt-diy-worker"
+main = "./build/server/index.js"
+compatibility_date = "2025-05-27" # Can be more recent, e.g., "2025-05-27"
+compatibility_flags = ["nodejs_compat"]
